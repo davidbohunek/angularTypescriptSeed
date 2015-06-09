@@ -11,7 +11,6 @@ module app.admin {
 
         constructor(private $scope: IUsersScope) {
             this.$scope.title = "Edit users here!";
-            alert('woot');
         }
     }
 

@@ -7,7 +7,6 @@ var app;
             function UsersController($scope) {
                 this.$scope = $scope;
                 this.$scope.title = "Edit users here!";
-                alert('woot');
             }
             UsersController.$inject = [
                 '$scope',
